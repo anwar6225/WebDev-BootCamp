@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Portifolio</title>
+        
+         <style>
+          *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.A{
+height: 120vh;
+width: 100%;
+background-color: rgb(125, 125, 224);
+background-size: cover;
+background-position: center;
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+ }
+.logo{
+    color: rgb(53, 224, 19);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: aliceblue;
+
+}
+span{
+    color: #df1957;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding:10px 25px;
+    
+}
+
+nav ul li a{
+    color: rgb(194, 21, 21);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:chocolate;
+    transition: .4s;
+
+}
+.btn{
+    background-color :#f90053;;
+    color: white;
+    text-decoration:none;
+    font-weight:bold;
+    padding:10px 25px ;
+    border-radius: 30px;
+    transition: transform 0.4s;
+}
+.btn:hover{
+    transform:scale(1.2)
+}
+.content{
+    
+    position:absolute;
+    top: 50%;
+    left: 8%;
+    transform:translateY(-50%);
+}
+h1{
+    color:white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+.newslatter form{
+    
+    width: 380px;
+    max-width: 100%;
+    position:relative;
+}
+.newslatter form input:first-child{
+display:inline-block ;
+max-width:100%;
+padding:14px 130px 14px 15px ;
+border:2px solid #f9004d;
+outline:none;
+border-radius: 30px;
+
+}
+.newslatter form input:last-child{
+position:absolute;
+display: inline-block;
+outline: none;
+border:none;
+padding: 10px 30px;
+border-radius: 30px;
+background-color: #f9004d;
+color: white;
+top: 7px;
+right:37px;
+box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
+}
+.about{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+.about img{
+    height:auto;
+    width:430px;
+    margin-right: 40px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width:1130px;
+    
+    max-width:95%;
+    margin:0px auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+   
+}
+.about-text p{
+    color:#fcfc;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+button{
+    background-color:#f9004d ;
+    color:white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    border:2px solid transparent;
+    padding:13px 30px;
+    transition:.4s;
+}
+button:hover{
+    background-color: transparent;
+    border:2px solid #f9004d ;
+    cursor: pointer;
+}
+          .final_btn{
+              transition:transform 0.3s eas-in-out;
+              }
+          .final_btn:hover{
+              transition:scale(1.1);
+              }
+              
+              </style>
+    </head>
+
+    
+    <body>
+        <div class="A">
+            <nav>
+              <h2 class="logo">Portifo<span class="B">lio</span></h2>
+              <ul class="li">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Me</a></li>
+              </ul>
+              <a href="#" class="btn">Subscribe</a>
+            </nav>
+            <div class="content">
+              <h4>Hello,my name is</h4>
+              <h1>Anwar <span>Muktar</span></h1>
+              <h3>I'm Web Developer</h3>
+              <div class="newslatter">
+                <form>
+                  <input type="email" name="email" id="mail" placeholder="Enter your email:">
+                  <input type="submit" name="submit" id="mail2" value="Lets start">
+                  
+                </form>
+              </div>
+            </div>
+        </div>
+
+
+
+
+
+        <section class="about">
+
+          <div class="main">
+
+        
+            <div class="about-text">
+
+              <h2>About Me</h2>
+
+              <h5>Developer & <span>Designer</span></h5>
+
+              <p>I'm front end web developer.i can provide clean and pixel perfect design.I also make website more and more interactive website with animation</p>
+
+              <button type="button" class="final_btn">lets talk</button>
+
+            </div>
+          </div>
+        </section>
+    </body>
+
+</html>
